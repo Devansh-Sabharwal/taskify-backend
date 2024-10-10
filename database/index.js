@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 // Connect to MongoDB
-mongoose.connect("mongodb+srv://Devansh:Devansh04@cluster0.r7oz5.mongodb.net/todoDB")
+mongoose.connect("process.env.connection")
 const Schema = mongoose.Schema;
 const ObjectId = Schema.ObjectId;
 
